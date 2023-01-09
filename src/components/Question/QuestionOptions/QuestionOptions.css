@@ -1,0 +1,5 @@
+.question-options-div {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1.2rem;
+}

@@ -1,0 +1,57 @@
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    background-color: var(--dark-blue-ink);
+}
+
+.primary-btn {
+    background-color: var(--secondary-color);
+    color: #F5F5F5;
+}
+
+.big-btn {
+    width: 19.3rem;
+    height: 5.2rem;
+    border-radius: 1.5rem;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+
+.small-btn {
+    color: var(--primary-color);
+    border-radius: 0.794rem;
+    min-width: 6.592rem;
+}
+.small-btn p {
+    margin: 0.36rem 0.8rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.not-selected {
+    border: 0.0794239rem solid var(--secondary-color);
+    border-radius: 0.794239rem;
+}
+
+.selected {
+    background-color: var(--light-blue-ink);
+}
+
+.correct {
+    background-color: #94D7A2;
+}
+
+.incorrect {
+    background-color: #F8BCBC;
+    color: #293264;
+    opacity: 0.5;
+}

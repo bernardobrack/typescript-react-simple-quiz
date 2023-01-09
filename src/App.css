@@ -1,0 +1,33 @@
+:root {
+  text-align: center;
+  font-size: 14px;
+  --primary-color: #293264;
+  --secondary-color: #4D5B9E;
+  --dark-blue-ink: #192254;
+  --light-blue-ink: #D6DBF5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.6rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F7FB;
+  justify-content: center;
+}
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  color: var(--primary-color);
+}
+
+h1 {
+  font-size: 3.125rem;
+}
