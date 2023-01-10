@@ -29,6 +29,11 @@ export default function QuestionOptions(props: IQuestionOptionsProps) {
 
     }
     return <div className="question-options-div">
-        {questionOptions?.map((option, index) => <SmallButton correct={option === props.correctAnswer} reveal={props.reveal} isSelected={isSelected[index]} key={option} onClick={() => handleButtonClick(index)}>{option}</SmallButton>)}
+        {questionOptions?.map((option, index) => <SmallButton 
+                                                    correct={option === props.correctAnswer} 
+                                                    reveal={props.reveal} 
+                                                    isSelected={isSelected[index]} 
+                                                    key={option} 
+                                                    onClick={() => handleButtonClick(index)}>{option}</SmallButton>)}
     </div>
 }
